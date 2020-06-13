@@ -3,7 +3,7 @@ from math import ceil
 from random import choice
 from typing import Callable, Any, List, Tuple, Optional, Collection, Set
 
-from coordinates import Coordinates, Rectangle
+from geortree.coordinates import Coordinates, Rectangle
 
 __all__ = ['GeoRTree']
 

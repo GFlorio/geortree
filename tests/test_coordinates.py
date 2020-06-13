@@ -1,7 +1,7 @@
 from random import uniform
 from unittest import TestCase
 
-from coordinates import Coordinates, Rectangle
+from geortree.coordinates import Coordinates, Rectangle
 
 
 def make_coordinates(n):
