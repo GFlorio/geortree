@@ -8,6 +8,9 @@ from typing import Collection
 EARTH_RADIUS = 6_378_100  # meters, approximate
 
 
+__all__ = ['Coordinates', 'Rectangle']
+
+
 @dataclass(frozen=True)
 class Coordinates:
     """Value Object representing a point on the surface of the Earth."""
